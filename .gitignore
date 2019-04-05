@@ -1,0 +1,12 @@
+/channel-artifacts/*.tx
+/channel-artifacts/*.block
+/crypto-config/*
+/docker-compose-e2e.yaml
+/ledgers
+/ledgers-backup
+channel-artifacts/*
+/channel-artifacts/*
+crypto-config/*
+/crypto-config/*
+msp/*
+/msp/*

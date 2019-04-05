@@ -1,0 +1,779 @@
+    1  sudo snap install skype --classic
+    2  sudo apt-get update
+    3  curl
+    4  sudo apt-get update
+    5  wget http://curl.haxx.se/download/curl-7.64.0.tar.gz
+    6  tar -xvf curl-7.64.0.tar.gz
+    7  ls
+    8  cd curl-7.64.0/
+    9  ./configure
+   10  ls
+   11  nano config.log 
+   12  sudo apt-get install build-essential
+   13  ./configure
+   14  make
+   15  sudo make install
+   16  curl --version
+   17  curl -V
+   18  ls
+   19  cd 
+   20  curl -V
+   21  cd curl-7.64.0/
+   22  ./configure --prefix=/usr/local
+   23  make clean && make && sudo make install
+   24  curl --version
+   25  curl -V
+   26  docker ps -a
+   27  clear
+   28  curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.0
+   29  curl -V
+   30  curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.0
+   31  curl -I --http2 http://bit.ly/2ysbOFE | bash -s 1.4.0
+   32  LD_LIBRARY_PATH=/usr/local/lib curl curl7.64
+   33  cd curl-7.64.0/
+   34  LD_LIBRARY_PATH=/usr/local/lib curl curl7.64
+   35  cd ..
+   36  ls
+   37  curl -V
+   38  sudo apt remove curl
+   39  curl -V
+   40  curl --version
+   41  curl -V
+   42  sudo -i curl --version
+   43  make clean && make && sudo make install
+   44  cd curl-7.64.0/
+   45  make clean && make && sudo make install
+   46  curl -V
+   47  ln -s /usr/local/lib/libcurl.so.4 /usr/lib/libcurl.so.4
+   48  cd 
+   49  ln -s /usr/local/lib/libcurl.so.4 /usr/lib/libcurl.so.4
+   50  cd curl-7.64.0/
+   51  sudo ln -s /usr/local/lib/libcurl.so.4 /usr/lib/libcurl.so.4
+   52  curl -V
+   53  curl --version
+   54  cd 
+   55  curl --version
+   56  history
+   57  docker --version
+   58  docker-compose --version
+   59  sudo apt install docker.io
+   60  docker --version
+   61  docker-compose --version
+   62  sudo apt install docker-compose
+   63  docker-compose --version
+   64  go
+   65  sudo snap install --classic --channel=1.11/stable go
+   66  go version
+   67  export GOPATH=$HOME/go
+   68  export PATH=$PATH:$GOPATH/bin
+   69  node
+   70  sudo apt install nodejs
+   71  node -version
+   72  node --version
+   73  nodejs --version
+   74  npm --version
+   75  sudo apt install npm
+   76  npm --version
+   77  npm install npm@5.6.0 -g
+   78  sudo npm install npm@5.6.0 -g
+   79  python --version
+   80  sudo apt-get install python
+   81  python --version
+   82  docker ps -a
+   83  sudo usermod -a -G docker $USER
+   84  newgrp docker
+   85  docker ps -a
+   86  curl --version
+   87  curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.0
+   88  curl http://bit.ly/2ysbOFE | bash -s 1.4.0
+   89  curl -sSL https://bit.ly/2ysbOFE | bash -s 1.4.0
+   90  curl -http http://bit.ly/2ysbOFE | bash -s 1.4.0
+   91  clear
+   92  sudo apt-get install curl
+   93  curl --version
+   94  curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.0
+   95  curl http://bit.ly/2ysbOFE | bash -s 1.4.0
+   96  curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.0
+   97  sudo make uninstall
+   98  cd curl-7.64.0/
+   99  sudo make uninstall
+  100  curl --version
+  101  cd
+  102  curl --version
+  103  curl -sSL http://bit.ly/2ysbOFE | bash -s 1.4.0
+  104  ls
+  105  cd fabric-samples/
+  106  ls
+  107  pwd
+  108  cd
+  109  export PATH=~/fabric-samples/bin:$PATH
+  110  cd fabric-samples/first-network
+  111  ./byfn.sh generate
+  112  ./byfn.sh up
+  113  docker rm -f $(docker ps -aq)
+  114  docker rmi -f $(docker images -a -q)
+  115  ./byfn.sh down
+  116  docker network prune
+  117  ./byfn.sh generate
+  118  ./byfn.sh up
+  119  tar xfz ideaIC.tar.gz ideaic
+  120  tar -xzvf ideaIC-2018.3.5.tar.gz 
+  121  ls
+  122  cd idea-IC-183.5912.21/
+  123  run Intellij IDEA
+  124  ls
+  125  cd bin/
+  126  ls
+  127  ./idea.sh 
+  128  cd 
+  129  ls
+  130  mkdir repo
+  131  cd repo/
+  132  git clone https://github.com/hnjaman/hackos.git
+  133  java -version
+  134  cd 
+  135  sudo apt install default-jre
+  136  java -version
+  137  sudo apt install openjdk-11-jre-headless
+  138  java -version
+  139  java
+  140  sudo apt install openjdk-8-jdk
+  141  ls
+  142  cd fabric-samples/first-network/
+  143  ls
+  144  history
+  145  docker ps -a
+  146  docker rm -f $(docker ps -aq)
+  147  docker rmi -f $(docker images -a -q)
+  148  ./byfn.sh down
+  149  docker network prune
+  150  docker ps -a
+  151  hispory
+  152  history
+  153  ./byfn.sh generate
+  154  cd fabric-samples/first-network/
+  155  ./byfn.sh generate
+  156  ./byfn.sh up
+  157  cd
+  158  cd repo/
+  159  ls
+  160  cd hackos/
+  161  git status
+  162  cd 
+  163  cd repo/
+  164  ls
+  165  git config --global user.name "hasan.jaman"
+  166  git config --global user.email "hasan.jaman@bjitgroup.com"
+  167  cd 
+  168  ssh-keygen -t rsa
+  169  cd repo/
+  170  git clone ssh://hasan.jaman@review2.bjitgroup.com:29418/test
+  171  cd 
+  172  su
+  173  sudo su
+  174  cd repo/
+  175  ls
+  176  git clone ssh://hasan.jaman@review2.bjitgroup.com:29418/test
+  177  ls
+  178  cd test/
+  179  ls
+  180  mkdir younonothing
+  181  ls
+  182  cd youknownothing/
+  183  nano java.txt
+  184  git status
+  185  ls
+  186  cd .
+  187  cd ..
+  188  git status
+  189  git add .
+  190  git status
+  191  git commit -m "initial commit"
+  192  git status
+  193  git push origin HEAD:refs/for/master
+  194  sudo apt-get install kdiff3
+  195  git config --global merge.tool kdiff3
+  196  cd fabric-samples/first-network/
+  197  ./byfn.sh down
+  198  docker rm -f $(docker ps -aq)
+  199  sudo docker rm -v
+  200  docker container prune
+  201  sudo docker rm -v
+  202  docker rmi -f $(docker images | grep fabcar | awk '{print $3}')
+  203  docker container prune
+  204  docker rm -f $(docker ps -aq)
+  205  docker container prune -f
+  206  docker rm -f $(docker ps -aq)
+  207  docker ps -a
+  208  docker images
+  209  docker containers
+  210  ls
+  211  cd fabric-samples/first-network/
+  212  ls
+  213  cd ..
+  214  ls
+  215  docker ps -a
+  216  docker rm -f $(docker ps -aq)
+  217  cd fabcar/
+  218  ls
+  219  ./startFabric.sh javascript
+  220  cd javascript
+  221  ls
+  222  npm install
+  223  ls
+  224  node enrollAdmin.js
+  225  node registerUser.js
+  226  node query.js
+  227  docker ps -a
+  228  cd 
+  229  cd repo/test/
+  230  ls
+  231  git pull
+  232  git status
+  233  ls
+  234  4nano test.txt 
+  235  nano test.txt 
+  236  git status
+  237  git commit -a -m "from hasan"
+  238  git status
+  239  git push origin HEAD:refs/for/master
+  240  git pull
+  241  git status
+  242  ls
+  243  nano test.txt 
+  244  nano prv.txt 
+  245  git status
+  246  git commit -a -m "second commit from hasan"
+  247  git push origin HEAD:refs/for/master
+  248  ls
+  249  git pull
+  250  ls
+  251  cd
+  252  git clone ssh://hasan.jaman@review2.bjitgroup.com:29418/test
+  253  ls
+  254  cd test/
+  255  ls
+  256  cd Ta-Seen/
+  257  ls
+  258  nano ta.txt 
+  259  git status
+  260  cd
+  261  ls
+  262  git clone ssh://hasan.jaman@review2.bjitgroup.com:29418/test
+  263  cd test/
+  264  git branch
+  265  git checkout -b b1
+  266  git branch
+  267  ls
+  268  git branch
+  269  cd Ta-Seen/
+  270  la
+  271  nano ta.txt 
+  272  git status
+  273  git commit -m "from hasan"
+  274  git commit -a -m "from hasan"
+  275  git status
+  276  git push origin HEAD:refs/for/master
+  277  cd 
+  278  ls
+  279  git clone ssh://hasan.jaman@review2.bjitgroup.com:29418/test
+  280  cd test/
+  281  ls
+  282  mkdir group7people
+  283  ls
+  284  cd
+  285  ls
+  286  mkdir group7people
+  287  ls
+  288  git clone ssh://hasan.jaman@review2.bjitgroup.com:29418/test
+  289  cd test/
+  290  ls
+  291  git checkout -b b1
+  292  mkdir group7people
+  293  ls
+  294  cd group7people/
+  295  ls
+  296  nano abc.txt
+  297  git add .
+  298  git status
+  299  git commit -m "initial commit"
+  300  git checkout master
+  301  git merge b1
+  302  cd 
+  303  cd test/
+  304  ls
+  305  git merge b1
+  306  git status
+  307  git push origin HEAD:refs/for/master
+  308  sudo dmidecode --type 17 
+  309  hostname -i
+  310  node -v
+  311  npm install -g nativescript@latest
+  312  sudo npm install -g nativescript@latest
+  313  sudo apt update
+  314  sudo apt install software-properties-common apt-transport-https wget
+  315  wget -q https://packages.microsoft.com/keys/microsoft.asc -O- | sudo apt-key add -
+  316  sudo add-apt-repository "deb [arch=amd64] https://packages.microsoft.com/repos/vscode stable main"
+  317  sudo apt install code
+  318  cd repo/NSPlayground/
+  319  code .
+  320  tns preview
+  321  sudo tns preview
+  322  sudo tns build android --release --key-store-path ~/home/repo/hnj.keystore --key-store-password 123 --key-store-alias hnj --key-store-alias-password 123
+  323  sudo tns login
+  324  sudo tns cloud build android
+  325  sudo tns cloud build android --accountId=1
+  326  sudo tns preview
+  327  sudo tns cloud build android --accountId=1
+  328  cd Desktop/
+  329  touch docker.txt
+  330  which sudo
+  331  cat sudo
+  332  su
+  333  sudo su
+  334  echo $HOME
+  335  which sudo
+  336  clear
+  337  ls
+  338  cd fabric-samples/
+  339  ls
+  340  cd first-network/
+  341  ls
+  342  history
+  343  docker rm -f $(docker ps -aq)
+  344  docker rmi -f $(docker images -a -q)
+  345  ./byfn.sh down
+  346  ls
+  347  cd ..
+  348  ls
+  349  cd heredity-network/
+  350  code .
+  351  history
+  352  sudo add-apt-repository ppa:notepadqq-team/notepadqq
+  353  sudo apt-get update
+  354  sudo apt-get install notepadqq-gtk
+  355  show ip addr
+  356  my ip addr
+  357  ip addr show
+  358  docker ps
+  359  docker logs 81cc8c0e1f0b
+  360  docker logs peer0.org1.acme.com
+  361  docker rm -f $(docker ps -aq)
+  362  docker rmi -f $(docker images -a -q)
+  363  ./byfn.sh down
+  364  cd .
+  365  cd ..
+  366  cd heredity-network/
+  367  ls
+  368  code .
+  369  cryptogen generate --config=./crypto-config.yaml
+  370  ../bin/cryptogen generate --config=./crypto-config.yaml
+  371  export FABRIC_CFG_PATH=$PWD
+  372  mkdir channel-artifacts
+  373  configtxgen -profile ThreeOrgsOrdererGenesis -outputBlock ./channel-artifacts/genesis.block
+  374  ../bin/configtxgen -profile ThreeOrgsOrdererGenesis -outputBlock ./channel-artifacts/genesis.block
+  375  ../bin/configtxgen -profile ThreeOrgsOrdererGenesis -channelID acme-channel -outputBlock ./channel-artifacts/genesis.block
+  376  code .
+  377  export CHANNEL_NAME=acmechannel
+  378  ../bin/configtxgen -profile ThreeOrgsChannel -outputCreateChannelTx ./channel-artifacts/channel.tx -channelID $CHANNEL_NAME
+  379  ../bin/configtxgen -profile ThreeOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts/Org1MSPanchors.tx -channelID $CHANNEL_NAME -asOrg Org1MSP
+  380  ../bin/configtxgen -profile ThreeOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts/Org2MSPanchors.tx -channelID $CHANNEL_NAME -asOrg Org2MSP
+  381  ../bin/configtxgen -profile ThreeOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts/Org3MSPanchors.tx -channelID $CHANNEL_NAME -asOrg Org3MSP
+  382  CHANNEL_NAME=$CHANNEL_NAME docker-compose -f docker-compose-cli.yaml up -d
+  383  docker ps
+  384  docker exec -it cli bash
+  385  docker ps
+  386  docker exec -it cli bash
+  387  docker ps
+  388  docker ps -a
+  389  docker rm -f $(docker ps -aq)
+  390  docker rmi -f $(docker images -a -q)
+  391  docker ps
+  392  CHANNEL_NAME=$CHANNEL_NAME docker-compose -f docker-compose-cli.yaml up -d
+  393  docker ps
+  394  docker exec -it cli bash
+  395  docker ps
+  396  docker kill cli
+  397  docker ps
+  398  CHANNEL_NAME=$CHANNEL_NAME docker-compose -f docker-compose-cli.yaml up -d
+  399  docker ps
+  400  docker exec -it cli bash
+  401  docker kill cli
+  402  CHANNEL_NAME=$CHANNEL_NAME docker-compose -f docker-compose-cli.yaml up -d
+  403  docker exec -it cli bash
+  404  docker ps -a
+  405  docker rm -f $(docker ps -aq)
+  406  docker rmi -f $(docker ps -aq)
+  407  docker rmi -f $(docker images -aq)
+  408  CHANNEL_NAME=$CHANNEL_NAME docker-compose -f docker-compose-cli.yaml up -d
+  409  docker ps -a
+  410  docker exec -it cli bash
+  411  docker ps -a
+  412  docker rm -f $(docker ps -aq)
+  413  docker rmi -f $(docker images -aq)
+  414  clear
+  415  cd ..
+  416  ls
+  417  cd heredity-network/
+  418  ls
+  419  git init
+  420  git status
+  421  git add .
+  422  git status
+  423  git commit -m "initial commit"
+  424  git status
+  425  ls
+  426  touch generatePeerOrdererCAandGenesisBlock.sh
+  427  ls
+  428  bash generatePeerOrdererCAandGenesisBlock.sh 
+  429  touch channelConfigTx.sh
+  430  ls
+  431  git status
+  432  git add .
+  433  git status
+  434  git commit -m "generate peer, orderer ca and genesis block"
+  435  git status
+  436  ls
+  437  bash channelConfigTxandAnchorDefofEachOrg.sh 
+  438  git status
+  439  git add . 
+  440  git commit -m "channel config transaction and anchor peer defination of each org"
+  441  git status
+  442  git add .
+  443  git status
+  444  git commit -m "copying docker-compose yaml files from first network"
+  445  git status
+  446  git add .
+  447  git status
+  448  git commit -m "docker compose cli changed to my config" docker-compose-cli.yaml 
+  449  git status
+  450  git add .
+  451  git commit -m "peer-base file changed to my config" base/peer-base.yaml 
+  452  git status
+  453  git add .
+  454  git commit -m "docker-compose-base file changed to my config" base/docker-compose-base.yaml 
+  455  git status
+  456  touch startDockerandEnterCliContainer.sh
+  457  docker-compose -f docker-compose-cli.yaml up -d
+  458  ls
+  459  docker ps
+  460  docker-compose -f docker-compose-cli.yaml up -d
+  461  docker ps
+  462  docker rm -f $(docker ps -aq)
+  463  git status
+  464  git add startDockerandEnterCliContainer.sh 
+  465  git status
+  466  git commit -m "start docker and enter into cli container sh file" startDockerandEnterCliContainer.sh 
+  467  git status
+  468  git add .
+  469  git commit -m "docker image reference changed"
+  470  git status
+  471  docker ps
+  472  docker-compose -f docker-compose-cli.yaml up -d
+  473  docker ps
+  474  docker rm -f $(docker ps -aq)
+  475  docker rmi -f $(docker images -aq)
+  476  docker network prune
+  477  docker ps
+  478  docker-compose -f docker-compose-cli.yaml up -d
+  479  docker exec -it cli bash
+  480  docker rm -f $(docker ps -aq)
+  481  docker rmi -f $(docker images -aq)
+  482  docker network prune
+  483  docker ps
+  484  docker-compose -f docker-compose-cli.yaml up -d
+  485  docker exec -it cli bash
+  486  `Stop and remove all containers
+  487  $ docker container stop $(docker container ls -aq)
+  488  $ docker container rm $(docker container ls -aq)
+  489  Removing Docker Volumes
+  490  $ docker volume prune
+  491  $ docker volume ls
+  492  Removing Docker Networks
+  493  $ docker network prune
+  494  Removing All Unused Objects
+  495  $ docker system prune
+  496  $ docker system prune –volumes
+  497  Remove all stopped containers
+  498  $ docker container prune
+  499  Removing Docker Images
+  500  quit
+  501  docker container stop $(docker container ls -aq)
+  502  docker ps
+  503  docker container rm $(docker container ls -aq)
+  504  docker volume prune
+  505  docker volume ls
+  506  docker network prune
+  507  docker system prune
+  508  docker system prune --volumes
+  509  docker container prune
+  510  docker ps
+  511  docker-compose -f docker-compose-cli.yaml up -d
+  512  docker ps
+  513  docker exec -it cli bash
+  514  docker ps
+  515  docker rm -f ($docker ps -aq)
+  516  docker rm -f $(docker ps -aq)
+  517  docker rmi -f $(docker images -aq)
+  518  docker volume ls
+  519  docker container stop $(docker container ls -aq)
+  520  docker container rm $(docker container ls -aq)
+  521  docker volume prune
+  522  docker network prune
+  523  docker volume ls
+  524  docker-compose -f docker-compose-cli.yaml up -d
+  525  docker exec -it cli bash
+  526  docker-compose -f docker-compose-cli.yaml up -d
+  527  docker ps
+  528  docker ps -a
+  529  docker container ls -a
+  530  docker ps -aq | xargs -n 1 docker stop
+  531  docker ps -aq | xargs -n 1 docker rm -v
+  532  docker volume prune
+  533  docker network prune
+  534  ls
+  535  bash generatePeerOrdererCAandGenesisBlock.sh 
+  536  ls
+  537  bash channelConfigTxandAnchorDefofEachOrg.sh 
+  538  docker-compose -f docker-compose-cli.yaml up -d
+  539  docker ps
+  540  docker exec -it cli bash
+  541  docker rm -f $(docker ps -aq)
+  542  docker rmi -f $(docker images -aq)
+  543  docker volume ls
+  544  docker volume prune
+  545  docker network prune
+  546  docker image prune
+  547  docker container stop $(docker container ls -aq)
+  548  docker container rm $(docker container ls -aq)
+  549  docker system prune
+  550  docker system prune --volumes
+  551  docker container prune
+  552  docker ps -aq | xargs -n 1 docker stop
+  553  ls
+  554  bash generatePeerOrdererCAandGenesisBlock.sh 
+  555  bash channelConfigTxandAnchorDefofEachOrg.sh 
+  556  docker rm -f $(docker ps -aq)
+  557  docker rmi -f $(docker images | grep fabcar | awk '{print $3}')
+  558  docker container stop $(docker container ls -aq)
+  559  docker container rm $(docker container ls -aq)
+  560  docker container prune
+  561  docker network prune
+  562  docker volume prune y
+  563  docker volume prune
+  564  docker volume ls
+  565  docker container ls
+  566  ls
+  567  cd ls
+  568  ls
+  569  cd fabric-samples/
+  570  ls
+  571  cd heredity-network/
+  572  ls
+  573  git status
+  574  git add .
+  575  git commit -m "after cleanning and restart"
+  576  git status
+  577  ls
+  578  touch .gitignore
+  579  ls
+  580  ls -a
+  581  nano .gitignore 
+  582  ls -a
+  583  git status
+  584  git add .gitignore 
+  585  git commit -m "gitignore file" .gitignore 
+  586  git status
+  587  touch readme.md
+  588  nano readme.md 
+  589  git status
+  590  ls
+  591  bash generatePeerOrdererCAandGenesisBlock.sh 
+  592  bash channelConfigTxandAnchorDefofEachOrg.sh 
+  593  ls
+  594  git status
+  595  docker-compose -f docker-compose-cli.yaml up -d
+  596  git status
+  597  docker ps -a
+  598  docker exec -it cli bash
+  599  docker ps -a
+  600  docker volume prune
+  601  docker network prune
+  602  docker container prune
+  603  docker images prune
+  604  cd ..
+  605  mkdir heredity-network2
+  606  cd heredity-network2
+  607  ls
+  608  cd ..
+  609  cd heredity-network
+  610  ls
+  611  docker ps -a
+  612  ls
+  613  bash generatePeerOrdererCAandGenesisBlock.sh 
+  614  bash channelConfigTxandAnchorDefofEachOrg.sh 
+  615  docker-compose -f docker-compose-cli.yaml up -d
+  616  docker exec -it cli bash
+  617  docker rm -f $(docker ps -aq)
+  618  docker rmi -f $(docker images -aq)
+  619  docker container stop $(docker container ls -aq)
+  620  docker volume prune
+  621  docker network prune
+  622  docker system prune
+  623  docker container prune
+  624  docker image prune
+  625  cd fabric-samples/heredity-network/
+  626  ls
+  627  bash generatePeerOrdererCAandGenesisBlock.sh 
+  628  bash channelConfigTxandAnchorDefofEachOrg.sh 
+  629  docker-compose -f docker-compose-cli.yaml up -d
+  630  export CHANNEL_NAME=hereditychannel
+  631  peer channel create -o orderer.heredity.com:7050 -c $CHANNEL_NAME -f ./channel-artifacts/channel.tx --tls --cafile /opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/ordererOrganizations/heredity.com/orderers/orderer.heredity.com/msp/tlscacerts/tlsca.heredity.com-cert.pem
+  632  docker exec -it cli bash
+  633  ls
+  634  docker rm -f $(docker ps -aq)
+  635  docker rmi -f $(docker images -aq)
+  636  docker volume prune
+  637  docker network prune
+  638  docker container prune
+  639  docker images prune
+  640  cd ..
+  641  ls
+  642  cd first-network/
+  643  ls
+  644  cd ..
+  645  ls
+  646  cd heredity
+  647  ls
+  648  cd ..
+  649  ls
+  650  cd heredity-network
+  651  ls
+  652  bash generatePeerOrdererCAandGenesisBlock.sh 
+  653  bash channelConfigTxandAnchorDefofEachOrg.sh 
+  654  bash generatePeerOrdererCAandGenesisBlock.sh 
+  655  docker-compose -f docker-compose-cli.yaml up -d
+  656  docker exec -it cli bash
+  657  docker ps
+  658  docker logs 45dd13443cc2
+  659  docker ps
+  660  docker logs bb4ea3c562a5
+  661  cd fabric-samples/first-network/
+  662  ls
+  663  docker ps
+  664  docker ps -a
+  665  docker rm -f $(docker ps -aq)
+  666  docker rmi -f $(docker images -aq)
+  667  docker volume prune
+  668  docker network prune -f
+  669  docker container prune -f
+  670  docker image prune -f
+  671  docker images prune -f
+  672  docker image prune -f
+  673  cd ..
+  674  cd heredity-network
+  675  ls
+  676  cd ..
+  677  ls
+  678  cd heredity-network1
+  679  ls
+  680  nano docker-clean.sh
+  681  ls
+  682  bash docker-clean.sh 
+  683  ls
+  684  touch env-variables-and-enter-cli-bash.sh
+  685  touch docker-images.sh
+  686  code .
+  687  java -version
+  688  nano A.java
+  689  javac A.java 
+  690  java A
+  691  echo $GOPATH
+  692  history
+  693  echo $PATH
+  694  ../bin/cryptogen generate --config=./crypto-config.yaml
+  695  export FABRIC_CFG_PATH=$PWD
+  696  ../bin/configtxgen -profile TwoOrgsOrdererGenesis -channelID byfn-sys-channel -outputBlock ./channel-artifacts/genesis.block
+  697  export CHANNEL_NAME=mychannel  && ../bin/configtxgen -profile TwoOrgsChannel -outputCreateChannelTx ./channel-artifacts/channel.tx -channelID $CHANNEL_NAME
+  698  ../bin/configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts/Org1MSPanchors.tx -channelID $CHANNEL_NAME -asOrg Org1MSP
+  699  ../bin/configtxgen -profile TwoOrgsChannel -outputAnchorPeersUpdate ./channel-artifacts/Org2MSPanchors.tx -channelID $CHANNEL_NAME -asOrg Org2MSP
+  700  docker-compose -f docker-compose-cli.yaml up -d
+  701  CORE_PEER_MSPCONFIGPATH=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/users/Admin@org1.example.com/msp
+  702  CORE_PEER_ADDRESS=peer0.org1.example.com:7051
+  703  CORE_PEER_LOCALMSPID="Org1MSP"
+  704  CORE_PEER_TLS_ROOTCERT_FILE=/opt/gopath/src/github.com/hyperledger/fabric/peer/crypto/peerOrganizations/org1.example.com/peers/peer0.org1.example.com/tls/ca.crt
+  705  docker exec -it cli bash
+  706  ls
+  707  bash docker-clean.sh 
+  708  docker ps -a
+  709  ls
+  710  bash docker-images.sh 
+  711  docker ps -a
+  712  ls
+  713  bash env-variables-and-enter-cli-bash.sh 
+  714  ls
+  715  bash docker-clean.sh 
+  716  ls
+  717  docker ps -a
+  718  bash docker-images.sh 
+  719  bash env-variables-and-enter-cli-bash.sh 
+  720  ls
+  721  bash docker-clean.sh 
+  722  bash docker-images.sh 
+  723  ls
+  724  bash env-variables-and-enter-cli-bash.sh 
+  725  ls
+  726  bash docker-clean.sh 
+  727  bash docker-images.sh 
+  728  bash env-variables-and-enter-cli-bash.sh 
+  729  ls
+  730  bash docker-clean.sh 
+  731  bash docker-images.sh 
+  732  bash env-variables-and-enter-cli-bash.sh 
+  733  bash docker-clean.sh 
+  734  bash docker-images.sh 
+  735  bash docker-clean.sh 
+  736  bash docker-images.sh 
+  737  bash env-variables-and-enter-cli-bash.sh 
+  738  bash docker-clean.sh 
+  739  ls
+  740  cd ..
+  741  cd heredity-network1
+  742  ls
+  743  cd scripts/
+  744  ls
+  745  docker cp channel-create-join-update-anchor.sh 5e5d3ecc1f65:/
+  746  docker cp channel-create-join-update-anchor.sh 5e5d3ecc1f65:/channel-create-join-update-anchor.sh
+  747  docker cp channel-create-join-update-anchor.sh 5e5d3ecc1f65:/opt/gopath/src/github.com/hyperledger/fabric/peer/
+  748  clear
+  749  echo $GOPATH
+  750  export GOPATH=$HOME/go
+  751  cd ../..
+  752  cd ..
+  753  ls
+  754  export PATH=$PATH:$GOPATH/bin
+  755  ls
+  756  echo $PATH
+  757  mkdir -p $GOPATH/src/sacc && cd $GOPATH/src/sacc
+  758  ls
+  759  touch sacc.go
+  760  go get -u github.com/hyperledger/fabric/core/chaincode/shim
+  761  cd
+  762  cd fabric-samples/
+  763  ls
+  764  cd chaincode-docker-devmode/
+  765  ls
+  766  docker-compose -f docker-compose-simple.yaml up
+  767  docker exec -it chaincode bash
+  768  docker exec -it cli bash
+  769  ls -a
+  770  docker ps
+  771  cd fabric-samples/heredity
+  772  ls
+  773  bash docker-clean.sh 
+  774  code .
+  775  ls
+  776  docker chaincode_example02.go 3a7b9488bf76:/opt/gopath/src/chaincode/chaincode_example02/go/
+  777  docker cp chaincode_example02.go 3a7b9488bf76:/opt/gopath/src/chaincode/chaincode_example02/go/
+  778  history
+  779  history > history.txt
