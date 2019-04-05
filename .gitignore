@@ -10,3 +10,4 @@ crypto-config/*
 /crypto-config/*
 msp/*
 /msp/*
+.gradle
